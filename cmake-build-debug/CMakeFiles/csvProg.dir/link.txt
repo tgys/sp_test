@@ -1,0 +1,1 @@
+g++ -g -Wall -g -rdynamic CMakeFiles/csvProg.dir/main.cpp.o -o csvProg  libcsvLib.a 

@@ -1,0 +1,1 @@
+g++ -g -Wall -g -rdynamic CMakeFiles/runTests.dir/test_file.cpp.o -o runTests  -lgtest -lgtest_main libcsvLib.a 

@@ -1,0 +1,1 @@
+cmd='/nix/store/9d67jcm1wj09wqgffh8v5mkgil9psnrw-cmake-3.25.3/bin/cmake;-DBUILD_SHARED_LIBS:BOOL=ON;-DCMAKE_BUILD_TYPE:STRING=Debug;-DCMAKE_INSTALL_PREFIX:PATH=/home/tei/projects/cpp/test-questions/cmake-build-debug/install;-DCMAKE_CXX_FLAGS=-g -Wall;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

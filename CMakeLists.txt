@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 2.8.2)
+option(test "Build all tests." ON)
+set(PROJECT_NAME stockprices)
+project(${PROJECT_NAME})
+set (CMAKE_CXX_COMPILER "g++")
+set (CMAKE_C_COMPILER "gcc")
+set(CMAKE_CXX_STANDARD 17)
+
+set(CMAKE_CXX_FLAGS "-g -Wall")
+
+find_package(GTest REQUIRED)
+enable_testing()
+add_executable(runTests test_file.cpp)
+add_executable(csvProg main.cpp)
+add_library(csvLib csv.cpp)
+target_link_libraries(csvProg csvLib)
+
+include_directories(${PROJECT_SOURCE_DIR}/include)
+target_link_libraries(runTests gtest gtest_main csvLib)
+add_test(NAME test1 COMMAND runTests)

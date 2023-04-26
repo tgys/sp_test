@@ -1,0 +1,2 @@
+/run/current-system/sw/bin/ar qc libcsvLib.a CMakeFiles/csvLib.dir/csv.cpp.o
+/run/current-system/sw/bin/ranlib libcsvLib.a

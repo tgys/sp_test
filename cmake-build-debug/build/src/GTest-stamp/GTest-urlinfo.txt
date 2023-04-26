@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/nix/store/9d67jcm1wj09wqgffh8v5mkgil9psnrw-cmake-3.25.3/bin/cmake;-P;/home/tei/projects/cpp/test-questions/cmake-build-debug/build/src/GTest-stamp/download-GTest.cmake;COMMAND;/nix/store/9d67jcm1wj09wqgffh8v5mkgil9psnrw-cmake-3.25.3/bin/cmake;-P;/home/tei/projects/cpp/test-questions/cmake-build-debug/build/src/GTest-stamp/verify-GTest.cmake;COMMAND;/nix/store/9d67jcm1wj09wqgffh8v5mkgil9psnrw-cmake-3.25.3/bin/cmake;-P;/home/tei/projects/cpp/test-questions/cmake-build-debug/build/src/GTest-stamp/extract-GTest.cmake
+source_dir=/home/tei/projects/cpp/test-questions/cmake-build-debug/build/src/GTest
+work_dir=/home/tei/projects/cpp/test-questions/cmake-build-debug/build/src
+url(s)=http://googletest.googlecode.com/files/gtest-1.6.0.zip
+hash=MD5=4577b49f2973c90bf9ba69aa8166b786
+no_extract=
+

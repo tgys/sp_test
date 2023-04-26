@@ -1,0 +1,6 @@
+/home/tei/projects/cpp/test-questions/cmake-build-debug/CMakeFiles/runTests.dir
+/home/tei/projects/cpp/test-questions/cmake-build-debug/CMakeFiles/csvProg.dir
+/home/tei/projects/cpp/test-questions/cmake-build-debug/CMakeFiles/csvLib.dir
+/home/tei/projects/cpp/test-questions/cmake-build-debug/CMakeFiles/test.dir
+/home/tei/projects/cpp/test-questions/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tei/projects/cpp/test-questions/cmake-build-debug/CMakeFiles/rebuild_cache.dir
